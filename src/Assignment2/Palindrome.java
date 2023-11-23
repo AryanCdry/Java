@@ -5,8 +5,8 @@ public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter String: ");
-        String reverse = "";
         String name = sc.next().toLowerCase();
+         String reverse = "";
         for( int i =name.length()-1 ; i>=0; i--){
             char c = name.charAt(i);
             reverse = reverse.concat(String.valueOf(c));
