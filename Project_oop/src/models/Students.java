@@ -47,8 +47,6 @@ public class Students {
         }
         return ((double) totalMarks / (marks.length * getFullMarks())) * 100;
     }
-
-    // Display information including percentage
     public void displayInformation() {
         String studentName = this.name;
         String section = this.section;
