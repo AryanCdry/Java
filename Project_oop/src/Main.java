@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Marks: " + student.getMarks() );
         System.out.println("Percentage: " + student.getPercentage() + "%");
 
-                // Using displayInformation function
+    
                 student.displayInformation();
             }
         }
